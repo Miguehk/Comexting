@@ -18,8 +18,6 @@
     rel="stylesheet"
     href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
-
-
 </head>
 <body>
 
@@ -28,9 +26,9 @@
             <a href="index.html"><h4>Comexting</h4></a>
             <ul class="nav__menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="./routes/about.html">About</a></li>
+                <li><a href="./routes/courses.html">Courses</a></li>
+                <li><a href="./routes/contact.html">Contact</a></li>
             </ul>
             <!-- BUTTON OPEN -->
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
@@ -48,7 +46,7 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Facere eos corporis neque, sit quaerat unde molestias.
                 </p>
-                <a href="courses.html" class="btn btn-primary">Get Started</a>
+                <a href="routes/courses.html" class="btn btn-primary">Get Started</a>
             </div>
             <div class="header__right">
                 <div class="header__right-image">
@@ -141,7 +139,7 @@
                         adipisicing elit. Beatae, quis incidunt! 
                         Dignissimos blanditiis laboriosam maxime.
                     </p>
-                    <a href="course.html" class="btn btn-primary">Lear More</a>
+                    <a href="routes/courses.html" class="btn btn-primary">Lear More</a>
                 </div>
             </article>
 
@@ -156,7 +154,7 @@
                         adipisicing elit. Beatae, quis incidunt! 
                         Dignissimos blanditiis laboriosam maxime.
                     </p>
-                    <a href="course.html" class="btn btn-primary">Lear More</a>
+                    <a href="routes/courses.html" class="btn btn-primary">Lear More</a>
                 </div>
             </article>
 
@@ -171,7 +169,7 @@
                         adipisicing elit. Beatae, quis incidunt! 
                         Dignissimos blanditiis laboriosam maxime.
                     </p>
-                    <a href="course.html" class="btn btn-primary">Lear More</a>
+                    <a href="routes/courses.html" class="btn btn-primary">Lear More</a>
                 </div>
             </article>
         </div>
@@ -382,12 +380,11 @@
             </div>
 
             <div class="footer__2">
-                <h4>Permalinks</h4>
+                <h4>Developers</h4>
                 <ul class="permalinks">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="www.miguel-paniagua.com">Miguel Paniagua</a></li>
+                    <li><a href="www.jonathan-lopez.com">Jonathan Lopez</a></li>
+                    <li><a href="www.Anyele.com">Anyele</a></li>
                 </ul>
             </div>
 
@@ -438,12 +435,12 @@
     <!-- SWIPER JS -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
-              var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 30,
         pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+            el: ".swiper-pagination",
+            clickable: true,
         },
         //when windows width is >= 600px
         breakpoints: {
@@ -451,7 +448,7 @@
                 slidesPerView: 2
             }
         }
-      });
+        });
     </script>
     
 </body>
